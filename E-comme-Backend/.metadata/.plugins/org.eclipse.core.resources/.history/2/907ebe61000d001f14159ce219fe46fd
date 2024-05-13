@@ -1,0 +1,11 @@
+spring.application.name=ezio-ecomm
+spring.Datasource.url=jdbc:mysql://localhost:3306/user
+spring.Datasource.username=root
+spring.Datasource.password=root
+spring.Datasource.driven-class-name=com.mysql.cj.jdbc.driver
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+
+spring:
+  resources:
+    static-locations: classpath:/Resource/static/
